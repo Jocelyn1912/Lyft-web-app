@@ -50,6 +50,7 @@
         <div class="row">
           <div class="col-xs-12">
             <form>
+              <span id="previous" class="glyphicon glyphicon-menu-left edit-back" aria-hidden="true"></span>
               <h3 class="text-center">Sign Up</h3>
               <p class="text-center">Join now for free ride credit</p>
               <div class="input-group">
@@ -64,7 +65,7 @@
               <p class="margin text-center">We'll send a text to verify you phone</p>
               <div class="row">
                 <div class="col-xs-push-4 col-xs-4">
-                  <button id="code" type="button" class="btn b" style="margin-bottom: 20px;">Generate Code</button>
+                  <button id="codigo" type="button" class="btn" style="margin-bottom: 20px;">Generate Code</button>
                 </div>
               </div>
               <button id="next2" type="button" class="btn bpink btn-lg btn-block">NEXT</button>
@@ -74,21 +75,23 @@
       </div>
     </div>
   </section>
-
+  <!-- Sección 3 verificación de celular -->
   <section class="verify-phone-number hidden">
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
           <form>
+            <span id="previous1" class="glyphicon glyphicon-menu-left edit-back" aria-hidden="true"></span>
             <h3 class="text-center">Verify phone number</h3>
             <p class="text-center">Join now for free ride credit</p>
             <div class="input-group">
-              <p class="input-group-addon b" id="basic-addon1">LAB</p>
+              <p class="input-group-addon" id="basic-addon1">LAB</p>
               <input id="insertCode" type="number" class="form-control" placeholder="1 2 3" aria-describedby="basic-addon1">
             </div>
-            <div id="text-number">
-          <!--aqui va numero-->
-            </div>
+            <div class="row">
+                <div class="col-xs-push-4 col-xs-4">
+                  <button id="codigo-nuevo" type="button" class="btn" style="margin-bottom: 20px;">Generate New Code</button>
+                </div>
             <button id="next3" type="button" class="btn bpink btn-lg btn-block">NEXT</button>
           </form>
         </div>
@@ -96,11 +99,12 @@
     </div>
   </section>
 
-  <!-- Sección tres de registro -->
+  <!-- Sección 4 de registro -->
   <section class="register hidden">
     <form>
       <div class="form-group">
         <div class="col-sm-10">
+          <span id="previous2" class="glyphicon glyphicon-menu-left edit-back" aria-hidden="true"></span>
           <h2 class="text-center">Sing Up</h2>
           <input type="text" class="form-control" id="inputEmail3" placeholder="Name">
         </div>
@@ -131,7 +135,7 @@
   <section class="end next-end hidden">
     <div class="row reset">
       <div class="col-xs-push-3 col-xs-6 logo-blanco-principal">
-        <p><strong>See you</strong></p>
+        <p><strong>See you...</strong></p>
         <img class="img-responsive" src="Assets/img/logo-white.png" alt="">
       </div>
     </div>
