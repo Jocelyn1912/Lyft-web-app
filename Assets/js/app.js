@@ -7,4 +7,9 @@ $(document).ready(function(){
   */
   $('.splash-screen').fadeOut(4000);
 
+  /*
+  *Función número de celular
+  */
+  
+
 });
