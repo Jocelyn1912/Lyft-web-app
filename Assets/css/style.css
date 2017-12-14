@@ -1,0 +1,49 @@
+/*Estilos generales*/
+* {
+  font-family:;
+  
+}
+
+/*Largo de header*/
+.splash-screen {
+  height: 100vh;
+  /*Fondo de pantalla en degradé*/
+  background: rgba(255,93,177,1);
+  background: -moz-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 96%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,93,177,1)), color-stop(96%, rgba(239,1,124,1)));
+background: -webkit-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 96%);
+background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 96%);
+background: -ms-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 96%);
+background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1 );
+}
+
+.logo-blanco-principal {
+  padding-top: 40vh;
+}
+
+/*Imagen de fondo, segunda vista*/
+.auto-lyft {
+  height: 100vh;
+  background-image: url(../img/auto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-lyft-pink {
+  padding-top: 20vh;
+}
+
+.btn {
+  color: #fff;
+  border: 2px solid #FFF;
+}
+
+.btns {
+  padding-top: 30vh;
+}
+
+.reset {
+  padding: 0;
+  margin: 0;
+}
