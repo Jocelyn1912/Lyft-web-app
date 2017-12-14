@@ -98,55 +98,42 @@
 
   <!-- Sección tres de registro -->
   <section class="register hidden">
-    <div class="container">
-      <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="panel panel-login">
-          <div class="panel-heading">
-            <div class="row">
-              <div class="col-xs-6">
-                <a href="#" id="register-form-link">Register</a>
-              </div>
-            </div>
-            <hr>
-          </div>
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-lg-12">
-                <form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
-                  <div class="form-group">
-                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Name" value="">
-                  </div>
-                  <div class="form-group">
-                    <input type="Text" name="Text" id="Email" tabindex="2" class="form-control" placeholder="Email">
-                  </div>
-                  <div class="form-group text-center">
-                    <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
-                    <label for="remember"> I agree to Lyft's Terms of service</label>
-                  </div>
-                  <div class="form-group">
-                    <div class="row">
-                      <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login next-end" value="Next">
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
+      <form>
+    <div class="form-group">
+      <div class="col-sm-10">
+        <h2 class="text-center">Sing Up</h2>
+        <input type="text" class="form-control" id="inputEmail3" placeholder="Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-xs-10">
+        <input type="text" class="form-control" id="inputPassword3" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-xs-offset-2 col-xs-10">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">I agree to Lyft's Terms of service
+          </label>
         </div>
       </div>
     </div>
-  </div>
-  </section>
-
-  <section class="end hidden">
-    <div class="row">
-      <div class="col-xs-push-3 col-xs-6 logo-blanco-principal">
-        <img class="img-responsive" src="Assets/img/logo-white.png" alt="">
+    <div class="form-group">
+      <div class="col-xs-offset-2 col-xs-10 next-end">
+        <button type="submit" class="btn btn-danger">Next in</button>
       </div>
     </div>
+  </form>
+    </section>
+
+    <section class="end next-end hidden">
+      <div class="row reset">
+        <div class="col-xs-push-3 col-xs-6 logo-blanco-principal">
+          <p><strong>See you</strong></p>
+          <img class="img-responsive" src="Assets/img/logo-white.png" alt="">
+        </div>
+      </div>
   </section>
 
   <script src="Assets/js/jquery-3.2.1.min.js"></script>
