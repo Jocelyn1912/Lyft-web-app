@@ -37,15 +37,15 @@
     <div class="row reset">
       <div class="col-xs-push-2 col-xs-8 btns">
         <a href="#" class="btn">LOG IN</a>
-        <a href="#" class="btn">SING UP</a>
+        <a href="#" class="btn" id="netx1">SING UP</a>
       </div>
     </div>
     </div>
   </section>
 
   <!-- Sección dos, vista número de celular -->
-  <section id="numero-telefonico">
-    <div id="sign-up">
+  <section class="numero-telefonico hidden">
+    <div class="sign-up">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -67,7 +67,7 @@
                   <button id="code" type="button" class="btn b" style="margin-bottom: 20px;">Generate Code</button>
                 </div>
               </div>
-              <button id="paso2" type="button" class="btn bpink btn-lg btn-block" disabled="disabled">NEXT</button>
+              <button id="next2" type="button" class="btn bpink btn-lg btn-block">NEXT</button>
             </form>
           </div>
         </div>
@@ -75,7 +75,7 @@
     </div>
   </section>
 
-  <section id="verify-phone-number">
+  <section class="verify-phone-number hidden">
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
@@ -89,7 +89,7 @@
             <div id="text-number">
           <!--aqui va numero-->
             </div>
-            <button id="paso3" type="button" class="btn bpink btn-lg btn-block" disabled="disabled">NEXT</button>
+            <button id="next3" type="button" class="btn bpink btn-lg btn-block">NEXT</button>
           </form>
         </div>
       </div>
@@ -97,7 +97,7 @@
   </section>
 
   <!-- Sección tres de registro -->
-  <section class="register">
+  <section class="register hidden">
     <div class="container">
       <div class="row">
       <div class="col-md-6 col-md-offset-3">
@@ -127,7 +127,7 @@
                   <div class="form-group">
                     <div class="row">
                       <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Next">
+                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login next-end" value="Next">
                       </div>
                     </div>
                   </div>
@@ -141,13 +141,12 @@
   </div>
   </section>
 
-  <section class="end">
+  <section class="end hidden">
     <div class="row">
       <div class="col-xs-push-3 col-xs-6 logo-blanco-principal">
         <img class="img-responsive" src="Assets/img/logo-white.png" alt="">
       </div>
     </div>
-    
   </section>
 
   <script src="Assets/js/jquery-3.2.1.min.js"></script>
